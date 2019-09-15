@@ -1,16 +1,16 @@
-  "modules": [
-    {
-      "$type": "ExplosiveItem.ItemModuleExplosiveItem, ExplosiveItemV2",
-      "timerToExplodeOnSpawn" : 0,
-      "expForceMultiplier" : 10,
-      "explosionRadius" : 5,
-      "maxDamage" : 200,
-      "explodeOnNPCsOnly" : false,
-      "explodeOnce" : true,
-      "cooldownTimer" : 1,
-      "explosionVFX" : "None",
-      "explosionSFX" : "None",
-      "meshTransformName" : "None"
-
-    },
-   
+"modules": [
+  {
+    "$type": "ExplosiveItem.ItemModuleExplosiveItem, ExplosiveItemV3",
+    "timerToExplodeOnSpawn" : 0,
+    "timerToExplodeOnUnGrab" : 0,
+    "expForceMultiplier" : 50,
+    "explosionRadius" : 5,
+    "maxDamage" : 150,
+    "ignorePlayerCollision": true,
+    "explodesOnContact": true,
+    "explodesOnNPCsOnly" : true,
+    "despawnItemAfterExplosion" : true,
+    "cooldownTimer" : 1,
+    "explosionVFX" : "ExplosionVFX",
+    "explosionSFX" : "ExplosionSFX"
+  },

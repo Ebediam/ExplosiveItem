@@ -6,16 +6,18 @@ namespace ExplosiveItem
     public class ItemModuleExplosiveItem : ItemModule
     {
         public float timerToExplodeOnSpawn = 0f;
-
+        public float timerToExplodeOnUnGrab = 0f;
         public float expForceMultiplier = 10f;
         public float explosionRadius = 5f;
         public float maxDamage = 200f;
-        public bool explodeOnNPCsOnly = false;
-        public bool explodeOnce = true;
+        public bool ignorePlayerCollision = true;
+        public bool explodesOnContact = true;
+        public bool explodesOnNPCsOnly = false;
+        public bool despawnItemAfterExplosion = true;
         public float cooldownTimer = 1f;
         public string explosionVFX = "None";
         public string explosionSFX = "None";
-        public string meshTransformName = "None";
+
         public override void OnItemLoaded(Item item)
         {
             base.OnItemLoaded(item);

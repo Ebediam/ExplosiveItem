@@ -1,6 +1,6 @@
 "modules": [
   {
-    "$type": "ExplosiveItem.ItemModuleExplosiveItem, ExplosiveItemV3",
+    "$type": "ExplosiveItem.ItemModuleExplosiveItem, ExplosiveItemV5",
     "timerToExplodeOnSpawn" : 0,
     "timerToExplodeOnUnGrab" : 0,
     "expForceMultiplier" : 50,

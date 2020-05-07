@@ -3,16 +3,23 @@
     "$type": "ExplosiveItem.ItemModuleExplosiveItem, ExplosiveItemV5_1",
     "timerToExplodeOnSpawn" : 0,
     "timerToExplodeOnUnGrab" : 0,
-    "expForceMultiplier" : 50,
+    "disallowExplosionWhileGrabbed": true,
+    "expForceMultiplier" : 12,
     "explosionRadius" : 5,
-    "maxDamage" : 150,
+    "maxDamage" : 50,
+
+    "affectsNPCs": true,
+    "affectsItems": true,
+    "affectsPlayer": true,
+      
+
     "ignorePlayerCollision": true,
     "explodesOnContact": true,
-     "explodesOnNPCs" : true,
-     "explodesOnItems" : true,
-     "explodesOnTheEnvironment" : true,
+    "explodesOnNPCs" : true,
+    "explodesOnItems" : true,
+    "explodesOnTheEnvironment" : true,
     "despawnItemAfterExplosion" : true,
-    "cooldownTimer" : 1,
-    "explosionVFX" : "ExplosionVFX",
-    "explosionSFX" : "ExplosionSFX"
-  },
+    "cooldownTimer" : 2,
+    "explosionVFX" : "None",
+    "explosionSFX" : "None"
+  }

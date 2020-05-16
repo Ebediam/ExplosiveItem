@@ -1,25 +1,28 @@
 "modules": [
   {
-    "$type": "ExplosiveItem.ItemModuleExplosiveItem, ExplosiveItemV6",
-    "timerToExplodeOnSpawn" : 0,
-    "timerToExplodeOnUnGrab" : 0,
-    "disallowExplosionWhileGrabbed": true,
-    "expForceMultiplier" : 12,
-    "explosionRadius" : 5,
-    "maxDamage" : 50,
+   "$type": "ExplosiveItem.ItemModuleExplosiveItem, ExplosiveItemV7_1",
+            "timerToExplodeOnSpawn" : 0,
+            "timerToExplodeOnUnGrab" : 0,
+            "disallowExplosionWhileGrabbed": true,
+            "expForceMultiplier" : 10,
+            "explosionRadius" : 8,
+            "maxDamage" : 80,
+            "canDismember" : true,
+            "dismemberMaxChance" : 0.2,
 
-    "affectsNPCs": true,
-    "affectsItems": true,
-    "affectsPlayer": true,
-      
 
-    "ignorePlayerCollision": true,
-    "explodesOnContact": true,
-    "explodesOnNPCs" : true,
-    "explodesOnItems" : true,
-    "explodesOnTheEnvironment" : true,
-    "despawnItemAfterExplosion" : true,
-    "cooldownTimer" : 2,
-    "explosionVFX" : "None",
-    "explosionSFX" : "None"
+            "affectsNPCs": true,
+            "affectsItems": true,
+            "affectsPlayer": true,              
+        
+            "ignorePlayerCollision": true,
+            "explodesOnContact": true,
+            "explodesOnNPCs" : true,
+            "explodesOnItems" : true,
+            "explodesOnTheEnvironment" : true,
+            "despawnItemAfterExplosion" : true,
+            "cooldownTimer" : 3,
+            "explosionVFX" : "None",
+            "explosionSFX" : "None"
+
   }
